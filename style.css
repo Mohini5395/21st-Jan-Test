@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background: #FFFFFF;
+}
+
+#to-do {
+    position: absolute;
+    width: 500px;
+    height: 75px;
+    left: 520px;
+    top: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 77px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+#itemField {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 63px;
+    left: 37px;
+    top: 129px;
+    font-size: 20px;
+    border: 2px solid #000000;
+}
+
+#dateField {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 63px;
+    left: 450px;
+    top: 130px;
+
+    border: 2px solid #000000;
+}
+
+#dropdownField {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 330px;
+    height: 63px;
+    left: 760px;
+    top: 130px;
+    font-size: 20px;
+    border: 2px solid #000000;
+}
+
+option {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+#addBtn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 254px;
+    height: 63px;
+    left: 1100px;
+    top: 129px;
+    color: white;
+    background: #000000;
+    border: 2px solid #000000;
+}
+
+#todaysTodo {
+    position: absolute;
+    width: 621px;
+    height: 45px;
+    left: 37px;
+    top: 240px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
